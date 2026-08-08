@@ -1,16 +1,60 @@
-# React + Vite
+# React Todo Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Todo Manager built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+This project was created to practice React fundamentals, state management, component usage, localStorage, and responsive UI development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+[View Live Demo](YOUR_VERCEL_URL)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 GitHub Repository
 
-## Expanding the ESLint configuration
+[View Source Code](YOUR_GITHUB_REPO_URL)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- Add new tasks
+- Edit tasks
+- Mark tasks as completed
+- Delete tasks
+- Trash / Bin system
+- Restore deleted tasks
+- Permanently delete tasks
+- Delete confirmation
+- Tasks saved using localStorage
+- Trash data persists after page refresh
+- Press `Enter` to add a task
+- Responsive design for desktop, tablet and mobile
+- React Icons for UI actions
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- React Icons
+- UUID
+- Browser localStorage
+
+## 📸 Features Preview
+
+### Task Management
+
+Users can add, edit, complete and delete tasks.
+
+### Trash Bin
+
+Deleted tasks are moved to a Trash Bin where they can either be restored or permanently deleted.
+
+### Persistent Storage
+
+Tasks and deleted tasks are stored in the browser's localStorage, so they remain available after refreshing the page.
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPO_URL
